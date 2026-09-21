@@ -8,7 +8,7 @@ The circuits were built in Logisim 2.3.1 and the assembler and emulators were wr
 
 HOW TO USE:
 Write your program in a file with the `.asm` extension.
-Run the emulator program with your file as a command line input.
+Run the assembler program with your file as a command line input.
 Example: `assembler.py {file_name}.asm`
 
 This will output 2 files, `{file_name}.prog.txt` and `{file_name}.bin.txt`
