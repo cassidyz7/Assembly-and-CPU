@@ -16,6 +16,8 @@ This will output 2 files, `{file_name}.prog.txt` and `{file_name}.bin.txt`
 `{file_name}.bin.txt` is a file that contains the actual binary strings that correspond to the instruction that was written.
 `{file_name}.prog.txt` is a file that contains the instructions written in hexadecimal so that they can be pasted into the program memory of the CPU in logisim and then ran.
 
+To use the emulator, run `emulator.py {file_name}.asm` to directly interpret the text and run the program. I would reccomend doing this first so you know what to expect the outputs of the CPU to look like
+
 
 LANGUAGE SPECIFICATIONS
 This lanauge uses 16, 16-bit registers and has 16 different instructions.
